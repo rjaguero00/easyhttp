@@ -1,6 +1,6 @@
 //JS
 
-const http = new easyHTTP;
+// const http = new easyHTTP;
 
 //Get Posts
 // http.get('https://jsonplaceholder.typicode.com/posts', function (err, posts) {
@@ -21,10 +21,10 @@ const http = new easyHTTP;
 // });
 
 //Create Data
-const data = {
-    title: 'Cumston Post',
-    body: 'This is a custom post'
-};
+// const data = {
+//     title: 'Cumston Post',
+//     body: 'This is a custom post'
+// };
 
 //Create post
 // http.post('https://jsonplaceholder.typicode.com/posts', data, function (err, post) {
@@ -45,10 +45,13 @@ const data = {
 // });
 
 //Delete Post
-http.delete('https://jsonplaceholder.typicode.com/posts/1', function (err, response) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log(response);
-    }
-});
+// http.delete('https://jsonplaceholder.typicode.com/posts/1', function (err, response) {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log(response);
+//     }
+// });
+
+
+//Part 2: Fetch with Promises
